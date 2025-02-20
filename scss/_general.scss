@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "DM Serif Display";
+    // font-family: "Public Sans";
+    background-color: #EDF3F8;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 1200px;
+    height: auto;
+}

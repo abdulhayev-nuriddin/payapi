@@ -1,0 +1,81 @@
+.hero{
+    margin-top: 74px;
+    background-image: url(../../images/Bitmap.png);
+    background-repeat: no-repeat;
+    background-position:  right;
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+
+        &__texts{
+            margin-top: 78px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            &__title{
+                font-size: 72px;
+                font-weight: 400;
+                color: #36536B;
+            }
+        }
+
+        &__inp{
+            position: relative;
+
+            &__input{
+                width: 445px;
+                height: 48px;
+                outline: none;
+                border: none;
+                background-color: #FBFCFE;
+                box-shadow: 10px 10px 25px -10px #36536B40;
+                border-radius: 24px;            
+
+
+                &::placeholder{
+                    padding-left: 27px;
+                    color: #36536B;
+                    font-weight: 700;
+                }
+            }
+            &__btn{
+                position: absolute;
+                background-color: #BA4270;
+                color: #fff;
+                border: none;
+                outline: none;
+                width: 173px;
+                height: 48px;
+                border-radius: 24px;
+                right: 0;
+                height: 100%;
+                transition: 0.3s ease;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+
+                &:active{
+                    transform: scale(0.9);
+                }
+            }
+        }
+
+        &__link{
+            text-decoration: none;
+            color: #6C8294;
+            font-family: "Public Sans";
+
+            &__spn{
+                font-weight: 700;
+            }
+        }
+
+        &__img{
+            width: 263px;
+            border-radius: 35px;
+        }
+    }
+}

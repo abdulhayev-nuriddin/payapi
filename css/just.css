@@ -1,0 +1,18 @@
+.just {
+  margin-top: 150px;
+}
+.just__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.just__container__texts__title {
+  font-size: 48px;
+  font-weight: 400;
+  color: #36536B;
+}
+.just__container__texts__text {
+  color: #6C8294;
+  font-family: "public sans";
+  margin-top: 24px;
+}/*# sourceMappingURL=just.css.map */

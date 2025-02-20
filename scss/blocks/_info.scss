@@ -1,0 +1,25 @@
+.info{
+    margin-top: 146px;
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+
+        &__card{
+            
+            &__title{
+                margin-top: 32px;
+                color: #36536B;
+                font-family: "public sans";
+            }
+
+            &__text{
+                font-family: "public sans";
+                margin-top: 16px;
+                color: #6C8294;
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.pricing{
+    margin-top: 150px;
+    background-image: url(../../images/BitmapCopy2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__texts{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            &__title{
+                color: #36536B;
+                font-size: 48px;
+                font-weight: 400;
+            }
+
+            &__text{
+                color: #6C8294;
+                font-family: "public sans";
+            }
+        }
+    }
+}
