@@ -25,3 +25,16 @@ body{
     width: 1200px;
     height: auto;
 }
+
+ul , ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input , button , textarea {
+    border: none;
+    outline: none;
+}
